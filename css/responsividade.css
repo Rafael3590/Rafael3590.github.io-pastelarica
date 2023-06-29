@@ -1,0 +1,59 @@
+@media screen and (max-width: 1275px) {
+    .card-promo {
+        width: 100%;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .card {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .card {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    nav, .login-register, .shop-logout {
+        display: none;
+    }
+
+    .title-site h1 {
+        font-size: 40px;
+    }
+
+    .call-to-act{
+        width: 90%;
+        height: 50%;
+    }
+
+    .title-promocoes {
+        padding-bottom: 0px;
+    }
+
+    .title-promocoes h1 {
+        font-size: 40px;
+        margin-right: 0px;
+    }
+
+    .card-promo {
+        width: 100%;
+    }
+
+    .title-promocoes img {
+        display: none;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
